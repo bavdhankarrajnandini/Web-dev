@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development Assignments</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00b4d8;
+      --secondary: #0077b6;
+      --accent: #90e0ef;
+      --bg-light: #f1f9fb;
+      --text-dark: #1b1b1b;
+      --gradient-start: #00b4d8;
+      --gradient-end: #0077b6;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--text-dark);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: var(--secondary);
+      margin-bottom: 0.3rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      color: #333;
+      margin: 0.3rem 0;
+    }
+
+    p {
+      color: #444;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      padding: 0 1rem;
+    }
+
+    a {
+      background: white;
+      color: var(--secondary);
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      font-weight: 500;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    a:hover {
+      background: var(--accent);
+      color: var(--text-dark);
+      transform: translateY(-4px);
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Web Development Assignments</h1>
+    </header>
+
+    <main>
+      <h2>Name: Rajnandini Mangesh Bavdhankar</h2>
+      <h2>Roll No: 63</h2>
+      <p>Following are the assignments:</p>
+      <nav>
+        <a href="Assig no.2.html" target="_blank">Assignment 2</a>
+        <a href="Assig no.3.html" target="_blank">Assignment 3</a>
+        <a href="Assig no.4.html" target="_blank">Assignment 4</a>
+        <a href="Assig no.5.html" target="_blank">Assignment 5</a>
+        <a href="assig no.6.html" target="_blank">Assignment 6</a>
+        <a href="Assig no.7.html" target="_blank">Assignment 7</a>
+        <a href="Assig no.8.html" target="_blank">Assignment 8</a>
+        <a href="Assig no.9.html" target="_blank">Assignment 9</a>
+        <a href="Assig no.10.html" target="_blank">Assignment 10</a>
+        <a href="Books.xml" target="_blank">Assignment 11</a>
+      </nav>
+    </main>
+  </div>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
